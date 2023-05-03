@@ -1,0 +1,285 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2em 2em;
+}
+
+header img{
+    width: 300px;
+}
+
+header input{
+    width: 300px;
+    height: 35px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f8f8efda;
+}
+header i{
+    background-color: black;
+    width: 40px;
+    height: 35px;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+}
+
+.cherche{
+    display: flex;
+    flex-direction: row;
+}
+
+header button{
+    height: 35px;
+    width: 60px;
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+header button{
+    background-color: #FFA804;
+    border: #FFA804;
+    color: white;
+}
+main{
+    background-color: #f8f8efda;
+    height: 60em;
+}
+.rang1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2em 2em;
+
+}
+.case{
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 10px;
+}
+
+.lien{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.lien a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+.icone{
+    display: flex;
+    justify-content: center;
+}
+.case i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFA804;
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 100%;
+}
+
+main h1{
+    text-align: center;
+    color: #FFA804;
+    font-size: 18px;
+}
+
+.bas{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.parcourir a{
+    color: #FFA804;
+    font-size: 16px;
+}
+
+.prix a{
+    color: #a8a8a2da;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(4, 4, 65);
+    color: white;
+    margin-top: 5em;
+} 
+.colum{
+    display: flex;
+    flex-direction: column;
+    gap: 0em;
+    width: 200px;
+    margin: 0em 2em;
+}
+
+
+.colum img{
+    width: 150px;
+}
+
+.colum h4{
+    font-size: 14px;
+}
+
+.colum img{
+    margin-top: 25px;
+}
+
+.ligne{
+    width: 170px;
+    border-top: 2px solid white;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    gap: 2em;
+}
+.reseau{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 25px;
+    gap: 1em;
+}
+.reseau i{
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+
+.fa-facebook, .fa-linkedin-square{
+    background-color: #3a72f5;
+    width: 35px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.fa-instagram{
+    background-color: #631054;
+    width: 35px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.fa-twitter{
+    background-color: #8da9ed;
+    width: 35px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px){
+
+    .log{
+        order: 1;
+    }
+    
+    .logo{
+        order: 2;
+    }
+
+    button{
+        order: 3;
+    }
+    
+    .cherche{
+        order: 4;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+
+    header input{
+        width: 250px;
+    }
+    
+    .rang1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+    }
+    .case{
+        width: 350px;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+
+    
+    main{
+        height: 160em;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 85em;
+        padding-top: 15px;
+        padding-bottom: 35px;
+    }
+
+    .colum{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .colum h4{
+        font-size: 18px;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 780px){
+
+    .case{
+        width: 100%;
+    } 
+  
+}
